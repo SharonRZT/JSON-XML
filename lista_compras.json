@@ -1,0 +1,124 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Mercadona",
+      "direccion": "Calle Pirra, 123",
+      "geolocalizacion": {
+        "latitud": 40.123456,
+        "longitud": -3.654321
+      },
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-01 al 2023-06-15",
+          "habitual_sin_oferta": false,
+          "unidades": 1,
+          "unidad_medida": "litro",
+          "precio": 1.50,
+          "adquirido": true
+        },
+        {
+          "nombre": "Pan",
+          "oferta": false,
+          "periodo_vigencia": "",
+          "habitual_sin_oferta": true,
+          "unidades": 2,
+          "unidad_medida": "unidad",
+          "precio": 0.80,
+          "adquirido": false
+        },
+        {
+          "nombre": "Manzanas",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-01 al 2023-06-30",
+          "habitual_sin_oferta": true,
+          "unidades": 6,
+          "unidad_medida": "unidad",
+          "precio": 2.50,
+          "adquirido": false
+        }
+      ]
+    },
+    {
+      "nombre": "Aldi",
+      "direccion": "Calle Campezo, 456",
+      "geolocalizacion": {
+        "latitud": 40.985554,
+        "longitud": -3.123456
+      },
+      "productos": [
+        {
+          "nombre": "Huevos",
+          "oferta": false,
+          "periodo_vigencia": "",
+          "habitual_sin_oferta": true,
+          "unidades": 12,
+          "unidad_medida": "unidad",
+          "precio": 2.20,
+          "adquirido": true
+        },
+        {
+          "nombre": "Arroz",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-01 al 2023-06-30",
+          "habitual_sin_oferta": true,
+          "unidades": 1,
+          "unidad_medida": "kg",
+          "precio": 1.80,
+          "adquirido": false
+        },
+        {
+          "nombre": "Yogur",
+          "oferta": false,
+          "periodo_vigencia": "",
+          "habitual_sin_oferta": true,
+          "unidades": 4,
+          "unidad_medida": "unidad",
+          "precio": 0.75,
+          "adquirido": true
+        }
+      ]
+    },
+    {
+      "nombre": "Carrefour",
+      "direccion": "Calle Deyanira, 51",
+      "geolocalizacion": {
+        "latitud": 40.567815,
+        "longitud": -3.987654
+      },
+      "productos": [
+        {
+          "nombre": "Carne de pollo",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-01 al 2023-06-15",
+          "habitual_sin_oferta": false,
+          "unidades": 1,
+          "unidad_medida": "kg",
+          "precio": 5.50,
+          "adquirido": false
+        },
+        {
+          "nombre": "Pasta",
+          "oferta": false,
+          "periodo_vigencia": "",
+          "habitual_sin_oferta": true,
+          "unidades": 3,
+          "unidad_medida": "unidad",
+          "precio": 1.20,
+          "adquirido": true
+        },
+        {
+          "nombre": "Aceite de oliva",
+          "oferta": true,
+          "periodo_vigencia": "2023-06-01 al 2023-06-30",
+          "habitual_sin_oferta": true,
+          "unidades": 1,
+          "unidad_medida": "litro",
+          "precio": 4.80,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}
